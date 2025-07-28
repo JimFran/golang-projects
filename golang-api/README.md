@@ -1,6 +1,6 @@
 # Projects
 
-The `golang-projects` repository contains three golang projects that implements the same API using differents modules.
+The `golang-api` folder contains three golang projects that implements the same API using differents modules.
 
 - `backend-http`: It implements a simple `CRUD` API with golang `http` module.
 
