@@ -6,7 +6,7 @@ The `golang-api` folder contains three golang projects that implements the same 
 
 - `backend-gorilla-mux`: It implements the same `CRUD` API with golang `gorilla mux` module. Additionally we added a simple middleware for authentication.
 
-- `backend-swagger`: It implemnts the same API as in the other projects but here we are using `swagger` to create the API and middlewares. 
+- `backend-swagger`: It implements the same API as in the other projects but here we are using `swagger` to create the API and middlewares. 
 
 ## Run the postgres database
 
@@ -100,7 +100,7 @@ Serving User Management API at http://localhost:8082
 
 The `test token` that we are using for the authorization is `Secret` (Please, check backend-swagger/utils/authorization.go)
 
-Potsman CURLs:
+Postman CURLs:
 
 - Get all users from the database:
 
